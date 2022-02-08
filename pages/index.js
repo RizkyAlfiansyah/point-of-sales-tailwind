@@ -1,5 +1,9 @@
 import React from 'react';
-import Sidebar from '../components/sidebar';
+import Sidebar from '../components/Sidebar';
+import StatsCard from '../components/StatsCard';
+import MostOrdered from '../components/MostOrdered';
+import MostTypeOfOrder from '../components/MostTypeOfOrder';
+import OrderReport from '../components/OrderReport';
 
 export default function Home() {
   return (
@@ -12,7 +16,13 @@ export default function Home() {
         <div className="text-gray-200">Tuesday 2 Feb, 2021</div>
       </header>
       <hr class="border-gray-700" />
+      <StatsCard />
+      <OrderReport />
     </main>
+    <aside class="flex flex-col gap-y-6 pt-6 pr-6 w-96">
+      <MostOrdered />
+      <MostTypeOfOrder />
+    </aside>    
     </div>
     </>
   )
