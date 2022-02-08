@@ -15,10 +15,10 @@ module.exports = {
           100 : '#E0E6E9',
           500: '#ABBBC2',
           700: '#393C49',
-          900: '#1F1D2B',
-          800: '#252836',
+          800: '#13283F',
+          900: '#0F172A',
         },
-        primary : '#EB966A',
+        primary : '#0EA5E9',
         accent : {
           blue: '#65B0F6',
           orange: '#FFB572',
