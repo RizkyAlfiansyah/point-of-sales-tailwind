@@ -1,6 +1,6 @@
 import React from 'react';
 import StatsCard from '../components/StatsCard';
-import Sidebar from '../components/Sidebar';
+import Sidebar from '../components/sidebar';
 import MostOrdered from '../components/MostOrdered';
 import MostTypeOfOrder from '../components/MostTypeOfOrder';
 import OrderReport from '../components/OrderReport';
